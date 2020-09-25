@@ -16,7 +16,7 @@
 ## Step 2 : Global Tool Configuration 설정
 
 1. Manage Jenkins => Global Tool Configuration
-2. Openshift Client Tools 항목을 찾아 아래 내용을 반영
+   1. Openshift Client Tools 항목을 찾아 아래 내용을 반영
      - Name : oc
      - Install automatically : 체크
      - Add Openshift Client Tools 클릭 후 "Extract *.zip/*.tar.gz" 선택
