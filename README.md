@@ -25,5 +25,13 @@ Manage Jenkins => Global Tool Configuration 으로 이동해 아래 설정을 �
     - Openshift About 페이지에서 Openshift 버전 확인 후 https://mirror.openshift.com/pub 에서 알맞은 Client 의 URL 을 복사
     - Download URL for binary archive : https://mirror.openshift.com/pub/openshift-v3/clients/3.11.0-0.32.0/linux/oc.tar.gz
     - Apply 버튼 클릭  
-2. JDK Installations
-  
+2. JDK Installations (Openshift 플러그인 테스트용)
+
+```console
+$ sudo apt-get update
+$ sudo apt-get install openjdk-8-jdk
+$ sudo vi /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+$ source /etc/environment
+$ echo $JAVA_HOME
+```
