@@ -7,9 +7,9 @@
 ```
 	1. Manage Jenkins => Manage Plugins => Available Tab => Filter 로 "Openshift" 입력
 	2. 아래 플러그인 선택
-		* Openshift Client
-		* Openshift Login
-		* Openshift Sync
+	     - Openshift Client
+	     - Openshift Login
+	     - Openshift Sync
 	3. Download now and install after restart 선택
 	4. Jenkins 재시작
 	5. 재시작후 설치된 플러그인에 위 플러그인들이 제대로 들어갔는지 확인
