@@ -28,10 +28,10 @@ Manage Jenkins => Global Tool Configuration 으로 이동해 아래 설정을 �
 2. JDK Installations (Openshift 플러그인 테스트용)
 
 ```console
-$ sudo apt-get update
-$ sudo apt-get install openjdk-8-jdk
-$ sudo vi /etc/environment
-JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-$ source /etc/environment
-$ echo $JAVA_HOME
+ $ sudo apt-get update
+ $ sudo apt-get install openjdk-8-jdk
+ $ sudo vi /etc/environment
+ JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+ $ source /etc/environment
+ $ echo $JAVA_HOME
 ```
