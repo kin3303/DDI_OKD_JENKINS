@@ -5,6 +5,10 @@
 ## Step 1 : Jenkins 에 Openshift Client Plugin 설치
 
 ```
+1. Managed Plugin
+```
+
+```
 1. Manage Jenkins => Manage Plugins => Available Tab => Filter 로 "Openshift" 입력
 2. 아래 플러그인 선택
      - Openshift Client
