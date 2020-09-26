@@ -40,4 +40,21 @@ Manage Jenkins => Global Tool Configuration 으로 이동해 아래 설정을 �
       - Install automatically : 체크
       - Install from Apache Version : 3.6.3
     - Apply 버튼 클릭 
+    
+## Step 3 : Openshift Cluster 추가 설정
+
+Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
+
+1. Cluster Configuration
+    - Add OpenShift Cluster 클릭
+      - Cluster Name : openshift-cluster
+      - API Server URL : Openshift 4 PAAS 에서는 Openshift -> Administrator -> Dashboard -> Details 에 있음
+      - Disable TLS Verify : 체크
+      - Credentials : Add 클릭
+        - Kind : 
+      
+    
+    
+    
+    https://github.com/openshift/jenkins-client-plugin
 
