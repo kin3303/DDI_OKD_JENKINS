@@ -50,9 +50,11 @@ Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
       - Cluster Name : openshift-cluster
       - API Server URL : Openshift 4 PAAS 에서는 Openshift -> Administrator -> Dashboard -> Details 에 있음
       - Disable TLS Verify : 체크
-      - Credentials : Add 클릭
-        - Kind : 
-      
+      - Credentials : Add 하여 추가 후 해당 Credential 선택
+        - Kind : Openshift Token for Openshift Client Plugin
+        - Token : 로그인 토큰 ( co whoami -t )
+        - ID : my-user-token
+    - Apply 버튼 클릭 
     
     
     
