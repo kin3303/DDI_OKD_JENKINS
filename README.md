@@ -56,7 +56,7 @@ Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
         - ID : my-user-token
     - Apply 버튼 클릭 
     
-## Step 4 : Openshift Cluster 테스트
+## Step 4 : Openshift Cluster 연결 테스트
 
 New Item => Item Name : Openshift-Setup-Test 입력 => Pipeline 선택 
 
