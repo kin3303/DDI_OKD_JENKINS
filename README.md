@@ -63,8 +63,9 @@ New Item => Item Name : Openshift-Setup-Test 입력 => Pipeline 선택
 1. General
     - This project is parameterized
       - Add Parameter -> String Parameter -> Name : PROJECT_NAME, Trim the String 체크
-      - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, Default Value : openshift-cluster, Trim the String 체크
-      - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, 
+      - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, Default Value : openshift-cluster, Trim the String 체크 
+2. Advanced Project Options
+    - Pipeline -> Script -> 레포지토리의 "Jenkinsfile-Basic" 파일 컨텐츠 삽입
 
     
     https://github.com/openshift/jenkins-client-plugin
