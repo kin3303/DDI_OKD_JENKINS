@@ -56,7 +56,16 @@ Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
         - ID : my-user-token
     - Apply 버튼 클릭 
     
-    
+## Step 4 : Openshift Cluster 테스트
+
+New Item => Item Name : Openshift-Setup-Test 입력 => Pipeline 선택 
+
+1. General
+    - This project is parameterized
+      - Add Parameter -> String Parameter -> Name : PROJECT_NAME, Trim the String 체크
+      - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, Default Value : openshift-cluster, Trim the String 체크
+      - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, 
+
     
     https://github.com/openshift/jenkins-client-plugin
 
