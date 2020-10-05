@@ -31,7 +31,7 @@ pipeline {
     stage('Code Analysis') {
       steps {
         script {
-          sh "${mvnCmd} sonar:sonar -Dsonar.host.url=http://sonarqube-cicd-project1.apps.cluster-mum-cd64.mum-cd64.example.opentlc.com -DskipTests=true"
+          sh "${mvnCmd} sonar:sonar -Dsonar.host.url=http://${env.SONAR_SERVER_URL} -DskipTests=true"
         }
       }
     }
