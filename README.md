@@ -67,6 +67,9 @@ Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
 3. Advanced Project Options
     - Pipeline -> Script -> 레포지토리의 "Jenkinsfile-Basic" 파일 컨텐츠 삽입
 
-    
+4. Dashboard 로 이동 후 Openshift-Setup-Test 선택
+    - Build with Parameters
+      - PROJECT_NAME : jenkins-setup-test
+      - CLUSTER_NAME :  
     https://github.com/openshift/jenkins-client-plugin
 
