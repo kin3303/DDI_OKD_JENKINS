@@ -58,13 +58,15 @@ Manage Jenkins => Configure System 으로 이동해 아래 설정을 진행
     
 ## Step 4 : Openshift Cluster 연결 테스트
 
-New Item => Item Name : Openshift-Setup-Test 입력 => Pipeline 선택 
+New Item => 
 
-1. General
+1. Item Name : Openshift-Setup-Test , Project Type : Pipeline 
+
+2. General
     - This project is parameterized
       - Add Parameter -> String Parameter -> Name : PROJECT_NAME, Trim the String 체크
       - Add Parameter -> String Parameter -> Name : CLUSTER_NAME, Default Value : openshift-cluster, Trim the String 체크 
-2. Advanced Project Options
+3. Advanced Project Options
     - Pipeline -> Script -> 레포지토리의 "Jenkinsfile-Basic" 파일 컨텐츠 삽입
 
     
